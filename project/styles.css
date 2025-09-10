@@ -1,0 +1,172 @@
+#langBtn {
+  background: var(--gold);
+  color: #000;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+#langBtn:hover {
+  background: #fff;
+  color: var(--purple);
+}
+body {
+  margin:0;
+  font-family: "Vazirmatn", Tahoma, sans-serif;
+  direction: rtl;
+  background:#f9f9f9;
+  color:#333;
+}
+
+/* رنگ‌ها */
+:root {
+  --orange:#ff7a00;
+  --purple:#6a0dad;
+  --gold:#ffb400;
+  --text:#333;
+}
+
+/* header */
+header {
+  background: linear-gradient(90deg, var(--purple), var(--orange));
+  color:#fff;
+}
+
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 25px;
+}
+
+.navbar .logo {
+  font-weight:bold;
+  font-size:22px;
+  color:var(--gold);
+  text-decoration:none;
+}
+
+.navbar ul {
+  list-style:none;
+  display:flex;
+  gap:20px;
+  margin:0;
+  padding:0;
+}
+
+.navbar ul li a {
+  text-decoration:none;
+  color:#fff;
+  font-weight:600;
+  padding:8px 14px;
+  border-radius:6px;
+  transition:0.3s;
+}
+
+.navbar ul li a:hover {
+  background:var(--gold);
+  color:#000;
+}
+
+/* hero */
+.hero {
+  text-align:center;
+  padding:80px 20px;
+  background: linear-gradient(120deg, var(--orange), var(--purple));
+  color:#fff;
+}
+
+.hero h1 {
+  font-size:46px;
+  margin-bottom:25px;
+}
+
+.hero p {
+  font-size:30px;
+  margin-bottom:25px;
+}
+
+.hero .btn {
+  background:var(--gold);
+  color:#000;
+  padding:15px 24px;
+  border-radius:8px;
+  font-weight:bold;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.hero .btn:hover {
+  background:#fff;
+  color:var(--purple);
+}
+
+/* صفحه داخلی */
+.page-header {
+  text-align:center;
+  padding:50px 20px;
+  background: linear-gradient(90deg, var(--purple), var(--orange));
+  color:#fff;
+}
+
+.services, .contact, .about {
+  padding:40px 20px;
+  max-width:900px;
+  margin:auto;
+}
+
+.services h2, .contact h2, .about h2 {
+  color:var(--purple);
+}
+
+/* فرم */
+form {
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  margin-top:20px;
+}
+
+form input, form textarea {
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
+}
+
+form button {
+  background:var(--orange);
+  color:#fff;
+  border:none;
+  padding:12px;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s;
+}
+
+form button:hover {
+  background:var(--purple);
+}
+
+/* footer */
+footer {
+  text-align:center;
+  padding:15px;
+  background:#fff;
+  border-top:6px solid var(--orange);
+  margin-top:40px;
+  color:var(--text);
+}
+
+section{
+    
+    font-size:20px;
+    
+    
+    
+}
+
